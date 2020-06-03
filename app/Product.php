@@ -41,7 +41,6 @@ class Product extends Model {
 
     public function getPriceTagAttribute()
     {
-        setlocale(LC_MONETARY,"pt_br", "ptb");
         $price = $this->attributes['price'];
         return formatMoney($price);
     }

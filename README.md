@@ -23,8 +23,8 @@ $ php -S localhost:8000 -t public
 ```
 ## Database e .env file
 
-O arquivo `.env` segue o padrão da documentação do Lumen para configuração do bando de dados
-e a o segredo da autenticação JWT.
+O arquivo `.env` segue o padrão da documentação do Lumen para configuração do banco de dados
+e o segredo da autenticação JWT.
 
 ```
 APP_NAME=Lumen
